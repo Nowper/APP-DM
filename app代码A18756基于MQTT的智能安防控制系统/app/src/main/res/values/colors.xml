@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="blue">#8297D8</color>
+    <color name="zhutiblack">#333333</color>
+    <color name="home_deep_black_color">#333333</color>
+    <color name="home_item_color">#666666</color>
+    <color name="home_empty_color">#999999</color>
+    <color name="line">#f1f1f1</color>
+    <color name="touming">#00000000</color>
+    <color name="statusweihuzhong">#999999</color>
+    <color name="statususing">#ff6633</color>
+    <color name="stausfree">#66cc00</color>
+    <color name="test">#1EAAF1</color>
+</resources>

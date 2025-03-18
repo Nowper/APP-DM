@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bbg"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:textColor="@color/purple_200"
+        android:gravity="center"
+        android:textSize="@dimen/sp_22"
+        android:text="智能安防控制系统" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_zidong"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginLeft="@dimen/dp_50"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_50"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="硬件连接状态:"
+            android:textColor="#cccccc"
+            android:textSize="@dimen/sp_14"
+            />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="未连接"
+            android:layout_marginLeft="20dp"
+            android:textColor="#A3AF24"
+            android:textSize="@dimen/sp_14"
+             />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_config"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_50"
+        android:layout_marginRight="@dimen/dp_30"
+        android:background="@drawable/backbtnblue"
+        android:gravity="center"
+        android:text="阈值配置"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_14"  >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_datashow"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_50"
+        android:layout_marginRight="@dimen/dp_30"
+        android:background="@drawable/backbtnblue"
+        android:gravity="center"
+        android:text="实时数据"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_14"   />
+
+    <TextView
+        android:id="@+id/tv_controlcenter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_50"
+        android:layout_marginRight="@dimen/dp_30"
+        android:background="@drawable/backbtnblue"
+        android:gravity="center"
+        android:text="控制中心"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_14" />
+
+    <TextView
+        android:id="@+id/tv_list"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_50"
+        android:layout_marginRight="@dimen/dp_30"
+        android:background="@drawable/backbtnblue"
+        android:gravity="center"
+        android:text="历史数据"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_14"  />
+
+
+</LinearLayout>
